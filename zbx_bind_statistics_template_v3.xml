@@ -29,7 +29,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[AAAA]</key>
+                    <key>bind.cache[AAAA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -72,7 +72,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[ANY]</key>
+                    <key>bind.cache[ANY,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -115,7 +115,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[A]</key>
+                    <key>bind.cache[A,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -158,7 +158,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[CacheBuckets]</key>
+                    <key>bind.cache[CacheBuckets,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -201,7 +201,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[CacheHits]</key>
+                    <key>bind.cache[CacheHits,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -244,7 +244,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[CacheMisses]</key>
+                    <key>bind.cache[CacheMisses,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -287,7 +287,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[CacheNodes]</key>
+                    <key>bind.cache[CacheNodes,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -330,7 +330,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[CNAME]</key>
+                    <key>bind.cache[CNAME,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -373,7 +373,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[DeleteLRU]</key>
+                    <key>bind.cache[DeleteLRU,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -416,7 +416,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[DeleteTTL]</key>
+                    <key>bind.cache[DeleteTTL,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -459,7 +459,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[HeapMemInUse]</key>
+                    <key>bind.cache[HeapMemInUse,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -502,7 +502,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[HeapMemMax]</key>
+                    <key>bind.cache[HeapMemMax,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -545,7 +545,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[HeapMemTotal]</key>
+                    <key>bind.cache[HeapMemTotal,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -588,7 +588,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[MX]</key>
+                    <key>bind.cache[MX,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -631,7 +631,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[NAPTR]</key>
+                    <key>bind.cache[NAPTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -674,7 +674,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[NS]</key>
+                    <key>bind.cache[NS,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -717,7 +717,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[NXDOMAIN]</key>
+                    <key>bind.cache[NXDOMAIN,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -760,7 +760,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[PTR]</key>
+                    <key>bind.cache[PTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -803,7 +803,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[QueryHits]</key>
+                    <key>bind.cache[QueryHits,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -846,7 +846,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[QueryMisses]</key>
+                    <key>bind.cache[QueryMisses,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -889,7 +889,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[SOA]</key>
+                    <key>bind.cache[SOA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -932,7 +932,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[SPF]</key>
+                    <key>bind.cache[SPF,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -975,7 +975,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[SRV]</key>
+                    <key>bind.cache[SRV,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1018,7 +1018,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[TreeMemInUse]</key>
+                    <key>bind.cache[TreeMemInUse,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1061,7 +1061,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[TreeMemMax]</key>
+                    <key>bind.cache[TreeMemMax,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1104,7 +1104,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[TreeMemTotal]</key>
+                    <key>bind.cache[TreeMemTotal,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1147,7 +1147,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[TXT]</key>
+                    <key>bind.cache[TXT,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1190,7 +1190,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_AAAA]</key>
+                    <key>bind.cache[_AAAA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1233,7 +1233,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_ANY]</key>
+                    <key>bind.cache[_ANY,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1276,7 +1276,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_A]</key>
+                    <key>bind.cache[_A,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1319,7 +1319,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_CNAME]</key>
+                    <key>bind.cache[_CNAME,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1362,7 +1362,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_MX]</key>
+                    <key>bind.cache[_MX,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1405,7 +1405,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_NAPTR]</key>
+                    <key>bind.cache[_NAPTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1448,7 +1448,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_NS]</key>
+                    <key>bind.cache[_NS,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1491,7 +1491,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_NXDOMAIN]</key>
+                    <key>bind.cache[_NXDOMAIN,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1534,7 +1534,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_PTR]</key>
+                    <key>bind.cache[_PTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1577,7 +1577,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_SOA]</key>
+                    <key>bind.cache[_SOA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1620,7 +1620,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_SPF]</key>
+                    <key>bind.cache[_SPF,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1663,7 +1663,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_SRV]</key>
+                    <key>bind.cache[_SRV,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1706,7 +1706,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.cache[_TXT]</key>
+                    <key>bind.cache[_TXT,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1749,7 +1749,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[AuthQryRej]</key>
+                    <key>bind.counter[AuthQryRej,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1792,7 +1792,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryAuthAns]</key>
+                    <key>bind.counter[QryAuthAns,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1835,7 +1835,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryDropped]</key>
+                    <key>bind.counter[QryDropped,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1878,7 +1878,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryDuplicate]</key>
+                    <key>bind.counter[QryDuplicate,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1921,7 +1921,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryFailure]</key>
+                    <key>bind.counter[QryFailure,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -1964,7 +1964,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryFORMERR]</key>
+                    <key>bind.counter[QryFORMERR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2007,7 +2007,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryNoauthAns]</key>
+                    <key>bind.counter[QryNoauthAns,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2050,7 +2050,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryNXDOMAIN]</key>
+                    <key>bind.counter[QryNXDOMAIN,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2093,7 +2093,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryNxrrset]</key>
+                    <key>bind.counter[QryNxrrset,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2136,7 +2136,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryRecursion]</key>
+                    <key>bind.counter[QryRecursion,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2179,7 +2179,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QryReferral]</key>
+                    <key>bind.counter[QryReferral,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2222,7 +2222,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QrySERVFAIL]</key>
+                    <key>bind.counter[QrySERVFAIL,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2265,7 +2265,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[QrySuccess]</key>
+                    <key>bind.counter[QrySuccess,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2308,7 +2308,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[RecQryRej]</key>
+                    <key>bind.counter[RecQryRej,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2351,7 +2351,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[ReqBadEDNSVer]</key>
+                    <key>bind.counter[ReqBadEDNSVer,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2394,7 +2394,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[ReqBadSIG]</key>
+                    <key>bind.counter[ReqBadSIG,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2437,7 +2437,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[ReqEdns0]</key>
+                    <key>bind.counter[ReqEdns0,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2480,7 +2480,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[ReqSIG0]</key>
+                    <key>bind.counter[ReqSIG0,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2523,7 +2523,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[ReqTCP]</key>
+                    <key>bind.counter[ReqTCP,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2566,7 +2566,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[ReqTSIG]</key>
+                    <key>bind.counter[ReqTSIG,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2609,7 +2609,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[Requestv4]</key>
+                    <key>bind.counter[Requestv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2652,7 +2652,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[Requestv6]</key>
+                    <key>bind.counter[Requestv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2695,7 +2695,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[RespEDNS0]</key>
+                    <key>bind.counter[RespEDNS0,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2738,7 +2738,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[Response]</key>
+                    <key>bind.counter[Response,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2781,7 +2781,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[RespSIG0]</key>
+                    <key>bind.counter[RespSIG0,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2824,7 +2824,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[RespTruncated]</key>
+                    <key>bind.counter[RespTruncated,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2867,7 +2867,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[RespTSIG]</key>
+                    <key>bind.counter[RespTSIG,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2910,7 +2910,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[RPZRewrites]</key>
+                    <key>bind.counter[RPZRewrites,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2953,7 +2953,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[UpdateBadPrereq]</key>
+                    <key>bind.counter[UpdateBadPrereq,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -2996,7 +2996,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[UpdateDone]</key>
+                    <key>bind.counter[UpdateDone,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3039,7 +3039,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[UpdateFail]</key>
+                    <key>bind.counter[UpdateFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3082,7 +3082,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[UpdateFwdFail]</key>
+                    <key>bind.counter[UpdateFwdFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3125,7 +3125,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[UpdateRej]</key>
+                    <key>bind.counter[UpdateRej,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3168,7 +3168,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[UpdateReqFwd]</key>
+                    <key>bind.counter[UpdateReqFwd,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3211,7 +3211,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[UpdateRespFwd]</key>
+                    <key>bind.counter[UpdateRespFwd,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3254,7 +3254,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[XfrRej]</key>
+                    <key>bind.counter[XfrRej,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3297,7 +3297,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.counter[XfrReqDone]</key>
+                    <key>bind.counter[XfrReqDone,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3340,7 +3340,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[AAAA]</key>
+                    <key>bind.incounter[AAAA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3383,7 +3383,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[ANY]</key>
+                    <key>bind.incounter[ANY,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3426,7 +3426,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[A]</key>
+                    <key>bind.incounter[A,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3469,7 +3469,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[CNAME]</key>
+                    <key>bind.incounter[CNAME,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3512,7 +3512,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[MX]</key>
+                    <key>bind.incounter[MX,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3555,7 +3555,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[NAPTR]</key>
+                    <key>bind.incounter[NAPTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3598,7 +3598,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[NS]</key>
+                    <key>bind.incounter[NS,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3641,7 +3641,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[PTR]</key>
+                    <key>bind.incounter[PTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3684,7 +3684,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[SOA]</key>
+                    <key>bind.incounter[SOA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3727,7 +3727,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[SPF]</key>
+                    <key>bind.incounter[SPF,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3770,7 +3770,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[SRV]</key>
+                    <key>bind.incounter[SRV,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3813,7 +3813,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.incounter[TXT]</key>
+                    <key>bind.incounter[TXT,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3856,7 +3856,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.memory[BlockSize]</key>
+                    <key>bind.memory[BlockSize,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3899,7 +3899,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.memory[ContextSize]</key>
+                    <key>bind.memory[ContextSize,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3942,7 +3942,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.memory[InUse]</key>
+                    <key>bind.memory[InUse,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -3985,7 +3985,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.memory[Lost]</key>
+                    <key>bind.memory[Lost,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4028,7 +4028,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.memory[TotalUse]</key>
+                    <key>bind.memory[TotalUse,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4071,7 +4071,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[AAAA]</key>
+                    <key>bind.outcounter[AAAA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4114,7 +4114,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[ANY]</key>
+                    <key>bind.outcounter[ANY,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4157,7 +4157,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[A]</key>
+                    <key>bind.outcounter[A,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4200,7 +4200,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[CNAME]</key>
+                    <key>bind.outcounter[CNAME,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4243,7 +4243,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[MX]</key>
+                    <key>bind.outcounter[MX,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4286,7 +4286,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[NAPTR]</key>
+                    <key>bind.outcounter[NAPTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4329,7 +4329,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[NS]</key>
+                    <key>bind.outcounter[NS,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4372,7 +4372,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[PTR]</key>
+                    <key>bind.outcounter[PTR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4415,7 +4415,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[SOA]</key>
+                    <key>bind.outcounter[SOA,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4458,7 +4458,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[SPF]</key>
+                    <key>bind.outcounter[SPF,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4501,7 +4501,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[SRV]</key>
+                    <key>bind.outcounter[SRV,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4544,7 +4544,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.outcounter[TXT]</key>
+                    <key>bind.outcounter[TXT,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4587,7 +4587,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[EDNS0Fail]</key>
+                    <key>bind.resolvercounter[EDNS0Fail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4630,7 +4630,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[FORMERR]</key>
+                    <key>bind.resolvercounter[FORMERR,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4673,7 +4673,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[GlueFetchv4Fail]</key>
+                    <key>bind.resolvercounter[GlueFetchv4Fail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4716,7 +4716,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[GlueFetchv4]</key>
+                    <key>bind.resolvercounter[GlueFetchv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4759,7 +4759,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[GlueFetchv6Fail]</key>
+                    <key>bind.resolvercounter[GlueFetchv6Fail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4802,7 +4802,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[GlueFetchv6]</key>
+                    <key>bind.resolvercounter[GlueFetchv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4845,7 +4845,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Lame]</key>
+                    <key>bind.resolvercounter[Lame,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4888,7 +4888,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Mismatch]</key>
+                    <key>bind.resolvercounter[Mismatch,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4931,7 +4931,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[NXDOMAIN]</key>
+                    <key>bind.resolvercounter[NXDOMAIN,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -4974,7 +4974,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[OtherError]</key>
+                    <key>bind.resolvercounter[OtherError,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5017,7 +5017,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QryRTT10]</key>
+                    <key>bind.resolvercounter[QryRTT10,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5060,7 +5060,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QryRTT100]</key>
+                    <key>bind.resolvercounter[QryRTT100,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5103,7 +5103,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QryRTT500]</key>
+                    <key>bind.resolvercounter[QryRTT500,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5146,7 +5146,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QryRTT800]</key>
+                    <key>bind.resolvercounter[QryRTT800,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5189,7 +5189,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QryRTT1600+]</key>
+                    <key>bind.resolvercounter[QryRTT1600+,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5232,7 +5232,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QryRTT1600]</key>
+                    <key>bind.resolvercounter[QryRTT1600,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5275,7 +5275,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QueryAbort]</key>
+                    <key>bind.resolvercounter[QueryAbort,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5318,7 +5318,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QuerySockFail]</key>
+                    <key>bind.resolvercounter[QuerySockFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5361,7 +5361,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[QueryTimeout]</key>
+                    <key>bind.resolvercounter[QueryTimeout,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5404,7 +5404,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Queryv4]</key>
+                    <key>bind.resolvercounter[Queryv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5447,7 +5447,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Queryv6]</key>
+                    <key>bind.resolvercounter[Queryv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5490,7 +5490,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Responsev4]</key>
+                    <key>bind.resolvercounter[Responsev4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5533,7 +5533,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Responsev6]</key>
+                    <key>bind.resolvercounter[Responsev6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5576,7 +5576,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Retry]</key>
+                    <key>bind.resolvercounter[Retry,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5619,7 +5619,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[SERVFAIL]</key>
+                    <key>bind.resolvercounter[SERVFAIL,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5662,7 +5662,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[Truncated]</key>
+                    <key>bind.resolvercounter[Truncated,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5705,7 +5705,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[ValAttempt]</key>
+                    <key>bind.resolvercounter[ValAttempt,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5748,7 +5748,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[ValFail]</key>
+                    <key>bind.resolvercounter[ValFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5791,7 +5791,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[ValNegOk]</key>
+                    <key>bind.resolvercounter[ValNegOk,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5834,7 +5834,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.resolvercounter[ValOk]</key>
+                    <key>bind.resolvercounter[ValOk,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5877,7 +5877,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[FDwatchBindFail]</key>
+                    <key>bind.socketcounter[FDwatchBindFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5920,7 +5920,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[FDwatchClose]</key>
+                    <key>bind.socketcounter[FDwatchClose,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -5963,7 +5963,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[FDwatchConnFail]</key>
+                    <key>bind.socketcounter[FDwatchConnFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6006,7 +6006,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[FDwatchConn]</key>
+                    <key>bind.socketcounter[FDwatchConn,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6049,7 +6049,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[FDwatchRecvErr]</key>
+                    <key>bind.socketcounter[FDwatchRecvErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6092,7 +6092,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[FDwatchSendErr]</key>
+                    <key>bind.socketcounter[FDwatchSendErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6135,7 +6135,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4AcceptFail]</key>
+                    <key>bind.socketcounter[TCP4AcceptFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6178,7 +6178,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4Accept]</key>
+                    <key>bind.socketcounter[TCP4Accept,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6221,7 +6221,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4BindFail]</key>
+                    <key>bind.socketcounter[TCP4BindFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6264,7 +6264,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4Close]</key>
+                    <key>bind.socketcounter[TCP4Close,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6307,7 +6307,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4ConnFail]</key>
+                    <key>bind.socketcounter[TCP4ConnFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6350,7 +6350,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4Conn]</key>
+                    <key>bind.socketcounter[TCP4Conn,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6393,7 +6393,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4OpenFail]</key>
+                    <key>bind.socketcounter[TCP4OpenFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6436,7 +6436,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4Open]</key>
+                    <key>bind.socketcounter[TCP4Open,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6479,7 +6479,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4RecvErr]</key>
+                    <key>bind.socketcounter[TCP4RecvErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6522,7 +6522,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP4SendErr]</key>
+                    <key>bind.socketcounter[TCP4SendErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6565,7 +6565,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6AcceptFail]</key>
+                    <key>bind.socketcounter[TCP6AcceptFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6608,7 +6608,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6Accept]</key>
+                    <key>bind.socketcounter[TCP6Accept,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6651,7 +6651,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6BindFail]</key>
+                    <key>bind.socketcounter[TCP6BindFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6694,7 +6694,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6Close]</key>
+                    <key>bind.socketcounter[TCP6Close,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6737,7 +6737,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6ConnFail]</key>
+                    <key>bind.socketcounter[TCP6ConnFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6780,7 +6780,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6Conn]</key>
+                    <key>bind.socketcounter[TCP6Conn,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6823,7 +6823,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6OpenFail]</key>
+                    <key>bind.socketcounter[TCP6OpenFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6866,7 +6866,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6Open]</key>
+                    <key>bind.socketcounter[TCP6Open,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6909,7 +6909,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6RecvErr]</key>
+                    <key>bind.socketcounter[TCP6RecvErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6952,7 +6952,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[TCP6SendErr]</key>
+                    <key>bind.socketcounter[TCP6SendErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -6995,7 +6995,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4BindFail]</key>
+                    <key>bind.socketcounter[UDP4BindFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7038,7 +7038,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4Close]</key>
+                    <key>bind.socketcounter[UDP4Close,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7081,7 +7081,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4ConnFail]</key>
+                    <key>bind.socketcounter[UDP4ConnFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7124,7 +7124,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4Conn]</key>
+                    <key>bind.socketcounter[UDP4Conn,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7167,7 +7167,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4OpenFail]</key>
+                    <key>bind.socketcounter[UDP4OpenFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7210,7 +7210,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4Open]</key>
+                    <key>bind.socketcounter[UDP4Open,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7253,7 +7253,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4RecvErr]</key>
+                    <key>bind.socketcounter[UDP4RecvErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7296,7 +7296,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP4SendErr]</key>
+                    <key>bind.socketcounter[UDP4SendErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7339,7 +7339,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6BindFail]</key>
+                    <key>bind.socketcounter[UDP6BindFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7382,7 +7382,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6Close]</key>
+                    <key>bind.socketcounter[UDP6Close,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7425,7 +7425,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6ConnFail]</key>
+                    <key>bind.socketcounter[UDP6ConnFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7468,7 +7468,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6Conn]</key>
+                    <key>bind.socketcounter[UDP6Conn,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7511,7 +7511,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6OpenFail]</key>
+                    <key>bind.socketcounter[UDP6OpenFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7554,7 +7554,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6Open]</key>
+                    <key>bind.socketcounter[UDP6Open,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7597,7 +7597,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6RecvErr]</key>
+                    <key>bind.socketcounter[UDP6RecvErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7640,7 +7640,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UDP6SendErr]</key>
+                    <key>bind.socketcounter[UDP6SendErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7683,7 +7683,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixAcceptFail]</key>
+                    <key>bind.socketcounter[UnixAcceptFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7726,7 +7726,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixAccept]</key>
+                    <key>bind.socketcounter[UnixAccept,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7769,7 +7769,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixBindFail]</key>
+                    <key>bind.socketcounter[UnixBindFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7812,7 +7812,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixClose]</key>
+                    <key>bind.socketcounter[UnixClose,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7855,7 +7855,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixConnFail]</key>
+                    <key>bind.socketcounter[UnixConnFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7898,7 +7898,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixConn]</key>
+                    <key>bind.socketcounter[UnixConn,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7941,7 +7941,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixOpenFail]</key>
+                    <key>bind.socketcounter[UnixOpenFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -7984,7 +7984,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixOpen]</key>
+                    <key>bind.socketcounter[UnixOpen,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8027,7 +8027,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixRecvErr]</key>
+                    <key>bind.socketcounter[UnixRecvErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8070,7 +8070,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.socketcounter[UnixSendErr]</key>
+                    <key>bind.socketcounter[UnixSendErr,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8113,7 +8113,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[AXFRReqv4]</key>
+                    <key>bind.zonemaintenancecounter[AXFRReqv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8156,7 +8156,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[AXFRReqv6]</key>
+                    <key>bind.zonemaintenancecounter[AXFRReqv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8199,7 +8199,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[IXFRReqv4]</key>
+                    <key>bind.zonemaintenancecounter[IXFRReqv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8242,7 +8242,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[IXFRReqv6]</key>
+                    <key>bind.zonemaintenancecounter[IXFRReqv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8285,7 +8285,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[NotifyInv4]</key>
+                    <key>bind.zonemaintenancecounter[NotifyInv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8328,7 +8328,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[NotifyInv6]</key>
+                    <key>bind.zonemaintenancecounter[NotifyInv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8371,7 +8371,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[NotifyOutv4]</key>
+                    <key>bind.zonemaintenancecounter[NotifyOutv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8414,7 +8414,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[NotifyOutv6]</key>
+                    <key>bind.zonemaintenancecounter[NotifyOutv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8457,7 +8457,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[NotifyRej]</key>
+                    <key>bind.zonemaintenancecounter[NotifyRej,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8500,7 +8500,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[SOAOutv4]</key>
+                    <key>bind.zonemaintenancecounter[SOAOutv4,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8543,7 +8543,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[SOAOutv6]</key>
+                    <key>bind.zonemaintenancecounter[SOAOutv6,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8586,7 +8586,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[XfrFail]</key>
+                    <key>bind.zonemaintenancecounter[XfrFail,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8629,7 +8629,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>bind.zonemaintenancecounter[XfrSuccess]</key>
+                    <key>bind.zonemaintenancecounter[XfrSuccess,{$DNS.SERVER}]</key>
                     <delay>120</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -8673,7 +8673,7 @@
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>bind.discoverzones</key>
+                    <key>bind.discoverzones[{$DNS.SERVER},{$DNS.SERVER}]</key>
                     <delay>3600</delay>
                     <status>1</status>
                     <allowed_hosts/>
@@ -8707,7 +8707,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},AuthQryRej]</key>
+                            <key>bind.zonecounter[{#ZONE},AuthQryRej,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -8751,7 +8751,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryAuthAns]</key>
+                            <key>bind.zonecounter[{#ZONE},QryAuthAns,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -8795,7 +8795,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryDropped]</key>
+                            <key>bind.zonecounter[{#ZONE},QryDropped,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -8839,7 +8839,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryDuplicate]</key>
+                            <key>bind.zonecounter[{#ZONE},QryDuplicate,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -8883,7 +8883,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryFailure]</key>
+                            <key>bind.zonecounter[{#ZONE},QryFailure,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -8927,7 +8927,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryFORMERR]</key>
+                            <key>bind.zonecounter[{#ZONE},QryFORMERR,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -8971,7 +8971,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryNoauthAns]</key>
+                            <key>bind.zonecounter[{#ZONE},QryNoauthAns,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9015,7 +9015,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryNXDOMAIN]</key>
+                            <key>bind.zonecounter[{#ZONE},QryNXDOMAIN,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9059,7 +9059,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryNxrrset]</key>
+                            <key>bind.zonecounter[{#ZONE},QryNxrrset,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9103,7 +9103,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryRecursion]</key>
+                            <key>bind.zonecounter[{#ZONE},QryRecursion,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9147,7 +9147,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QryReferral]</key>
+                            <key>bind.zonecounter[{#ZONE},QryReferral,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9191,7 +9191,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QrySERVFAIL]</key>
+                            <key>bind.zonecounter[{#ZONE},QrySERVFAIL,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9235,7 +9235,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},QrySuccess]</key>
+                            <key>bind.zonecounter[{#ZONE},QrySuccess,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9279,7 +9279,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},RecQryRej]</key>
+                            <key>bind.zonecounter[{#ZONE},RecQryRej,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9323,7 +9323,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},ReqBadEDNSVer]</key>
+                            <key>bind.zonecounter[{#ZONE},ReqBadEDNSVer,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9367,7 +9367,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},ReqBadSIG]</key>
+                            <key>bind.zonecounter[{#ZONE},ReqBadSIG,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9411,7 +9411,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},ReqEdns0]</key>
+                            <key>bind.zonecounter[{#ZONE},ReqEdns0,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9455,7 +9455,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},ReqSIG0]</key>
+                            <key>bind.zonecounter[{#ZONE},ReqSIG0,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9499,7 +9499,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},ReqTCP]</key>
+                            <key>bind.zonecounter[{#ZONE},ReqTCP,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9543,7 +9543,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},ReqTSIG]</key>
+                            <key>bind.zonecounter[{#ZONE},ReqTSIG,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9587,7 +9587,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},Requestv4]</key>
+                            <key>bind.zonecounter[{#ZONE},Requestv4,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9631,7 +9631,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},Requestv6]</key>
+                            <key>bind.zonecounter[{#ZONE},Requestv6,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9675,7 +9675,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},RespEDNS0]</key>
+                            <key>bind.zonecounter[{#ZONE},RespEDNS0,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9719,7 +9719,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},Response]</key>
+                            <key>bind.zonecounter[{#ZONE},Response,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9763,7 +9763,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},RespSIG0]</key>
+                            <key>bind.zonecounter[{#ZONE},RespSIG0,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9807,7 +9807,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},RespTruncated]</key>
+                            <key>bind.zonecounter[{#ZONE},RespTruncated,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9851,7 +9851,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},RespTSIG]</key>
+                            <key>bind.zonecounter[{#ZONE},RespTSIG,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9895,7 +9895,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},RPZRewrites]</key>
+                            <key>bind.zonecounter[{#ZONE},RPZRewrites,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9939,7 +9939,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},UpdateBadPrereq]</key>
+                            <key>bind.zonecounter[{#ZONE},UpdateBadPrereq,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -9983,7 +9983,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},UpdateDone]</key>
+                            <key>bind.zonecounter[{#ZONE},UpdateDone,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10027,7 +10027,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},UpdateFail]</key>
+                            <key>bind.zonecounter[{#ZONE},UpdateFail,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10071,7 +10071,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},UpdateFwdFail]</key>
+                            <key>bind.zonecounter[{#ZONE},UpdateFwdFail,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10115,7 +10115,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},UpdateRej]</key>
+                            <key>bind.zonecounter[{#ZONE},UpdateRej,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10159,7 +10159,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},UpdateReqFwd]</key>
+                            <key>bind.zonecounter[{#ZONE},UpdateReqFwd,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10203,7 +10203,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},UpdateRespFwd]</key>
+                            <key>bind.zonecounter[{#ZONE},UpdateRespFwd,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10247,7 +10247,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},XfrRej]</key>
+                            <key>bind.zonecounter[{#ZONE},XfrRej,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10291,7 +10291,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>bind.zonecounter[{#ZONE},XfrReqDone]</key>
+                            <key>bind.zonecounter[{#ZONE},XfrReqDone,{$DNS.SERVER}]</key>
                             <delay>300</delay>
                             <history>90</history>
                             <trends>365</trends>
@@ -10359,7 +10359,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},AuthQryRej]</key>
+                                        <key>bind.zonecounter[{#ZONE},AuthQryRej,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10371,7 +10371,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryFailure]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryFailure,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10383,7 +10383,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QrySuccess]</key>
+                                        <key>bind.zonecounter[{#ZONE},QrySuccess,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10395,7 +10395,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryAuthAns]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryAuthAns,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10407,7 +10407,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryFORMERR]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryFORMERR,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10419,7 +10419,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryNxrrset]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryNxrrset,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10431,7 +10431,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryNoauthAns]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryNoauthAns,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10443,7 +10443,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryNXDOMAIN]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryNXDOMAIN,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10455,7 +10455,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryReferral]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryReferral,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10467,7 +10467,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QrySERVFAIL]</key>
+                                        <key>bind.zonecounter[{#ZONE},QrySERVFAIL,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10479,7 +10479,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryRecursion]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryRecursion,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10491,7 +10491,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryDropped]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryDropped,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -10503,7 +10503,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App DNS-bind Service</host>
-                                        <key>bind.zonecounter[{#ZONE},QryDuplicate]</key>
+                                        <key>bind.zonecounter[{#ZONE},QryDuplicate,{$DNS.SERVER}]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -10659,7 +10659,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template App DNS-bind Service:bind.resolvercounter[QueryAbort].change(0)}&gt;0</expression>
+            <expression>{Template App DNS-bind Service:bind.resolvercounter[QueryAbort,{$DNS.SERVER}].change(0)}&gt;0</expression>
             <name>Too many aborted queries</name>
             <url/>
             <status>0</status>
@@ -10669,7 +10669,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App DNS-bind Service:bind.resolvercounter[QuerySockFail].change(0)}&gt;0</expression>
+            <expression>{Template App DNS-bind Service:bind.resolvercounter[QuerySockFail,{$DNS.SERVER}].change(0)}&gt;0</expression>
             <name>Too many socket open failures</name>
             <url/>
             <status>0</status>
@@ -10707,7 +10707,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_A]</key>
+                        <key>bind.cache[_A,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10719,7 +10719,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_AAAA]</key>
+                        <key>bind.cache[_AAAA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10731,7 +10731,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_ANY]</key>
+                        <key>bind.cache[_ANY,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10743,7 +10743,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_CNAME]</key>
+                        <key>bind.cache[_CNAME,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10755,7 +10755,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_MX]</key>
+                        <key>bind.cache[_MX,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10767,7 +10767,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_NAPTR]</key>
+                        <key>bind.cache[_NAPTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10779,7 +10779,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_NS]</key>
+                        <key>bind.cache[_NS,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10791,7 +10791,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_NXDOMAIN]</key>
+                        <key>bind.cache[_NXDOMAIN,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10803,7 +10803,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_PTR]</key>
+                        <key>bind.cache[_PTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10815,7 +10815,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_SOA]</key>
+                        <key>bind.cache[_SOA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10827,7 +10827,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_SPF]</key>
+                        <key>bind.cache[_SPF,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10839,7 +10839,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_SRV]</key>
+                        <key>bind.cache[_SRV,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10851,7 +10851,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[_TXT]</key>
+                        <key>bind.cache[_TXT,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -10883,7 +10883,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[A]</key>
+                        <key>bind.cache[A,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10895,7 +10895,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[AAAA]</key>
+                        <key>bind.cache[AAAA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10907,7 +10907,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[ANY]</key>
+                        <key>bind.cache[ANY,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10919,7 +10919,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[CNAME]</key>
+                        <key>bind.cache[CNAME,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10931,7 +10931,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[MX]</key>
+                        <key>bind.cache[MX,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10943,7 +10943,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[NAPTR]</key>
+                        <key>bind.cache[NAPTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10955,7 +10955,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[NS]</key>
+                        <key>bind.cache[NS,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10967,7 +10967,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[NXDOMAIN]</key>
+                        <key>bind.cache[NXDOMAIN,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10979,7 +10979,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[PTR]</key>
+                        <key>bind.cache[PTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -10991,7 +10991,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[SOA]</key>
+                        <key>bind.cache[SOA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11003,7 +11003,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[SPF]</key>
+                        <key>bind.cache[SPF,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11015,7 +11015,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[SRV]</key>
+                        <key>bind.cache[SRV,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11027,7 +11027,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[TXT]</key>
+                        <key>bind.cache[TXT,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11059,7 +11059,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[TreeMemTotal]</key>
+                        <key>bind.cache[TreeMemTotal,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11071,7 +11071,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[TreeMemMax]</key>
+                        <key>bind.cache[TreeMemMax,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11083,7 +11083,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[TreeMemInUse]</key>
+                        <key>bind.cache[TreeMemInUse,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11095,7 +11095,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[HeapMemTotal]</key>
+                        <key>bind.cache[HeapMemTotal,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11107,7 +11107,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[HeapMemMax]</key>
+                        <key>bind.cache[HeapMemMax,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11119,7 +11119,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[HeapMemInUse]</key>
+                        <key>bind.cache[HeapMemInUse,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11151,7 +11151,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[QueryHits]</key>
+                        <key>bind.cache[QueryHits,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11163,7 +11163,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[QueryMisses]</key>
+                        <key>bind.cache[QueryMisses,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11175,7 +11175,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[CacheHits]</key>
+                        <key>bind.cache[CacheHits,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11187,7 +11187,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[CacheMisses]</key>
+                        <key>bind.cache[CacheMisses,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11199,7 +11199,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[DeleteTTL]</key>
+                        <key>bind.cache[DeleteTTL,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11211,7 +11211,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[DeleteLRU]</key>
+                        <key>bind.cache[DeleteLRU,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11223,7 +11223,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[CacheNodes]</key>
+                        <key>bind.cache[CacheNodes,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11235,7 +11235,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.cache[CacheBuckets]</key>
+                        <key>bind.cache[CacheBuckets,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11267,7 +11267,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[ValAttempt]</key>
+                        <key>bind.resolvercounter[ValAttempt,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11279,7 +11279,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[ValFail]</key>
+                        <key>bind.resolvercounter[ValFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11291,7 +11291,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[ValNegOk]</key>
+                        <key>bind.resolvercounter[ValNegOk,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11303,7 +11303,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[ValOk]</key>
+                        <key>bind.resolvercounter[ValOk,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11335,7 +11335,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[A]</key>
+                        <key>bind.incounter[A,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11347,7 +11347,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[AAAA]</key>
+                        <key>bind.incounter[AAAA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11359,7 +11359,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[ANY]</key>
+                        <key>bind.incounter[ANY,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11371,7 +11371,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[CNAME]</key>
+                        <key>bind.incounter[CNAME,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11383,7 +11383,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[MX]</key>
+                        <key>bind.incounter[MX,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11395,7 +11395,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[NAPTR]</key>
+                        <key>bind.incounter[NAPTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11407,7 +11407,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[NS]</key>
+                        <key>bind.incounter[NS,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11419,7 +11419,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[PTR]</key>
+                        <key>bind.incounter[PTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11431,7 +11431,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[SOA]</key>
+                        <key>bind.incounter[SOA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11443,7 +11443,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[SPF]</key>
+                        <key>bind.incounter[SPF,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11455,7 +11455,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[SRV]</key>
+                        <key>bind.incounter[SRV,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11467,7 +11467,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.incounter[TXT]</key>
+                        <key>bind.incounter[TXT,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11499,7 +11499,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.memory[TotalUse]</key>
+                        <key>bind.memory[TotalUse,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11511,7 +11511,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.memory[InUse]</key>
+                        <key>bind.memory[InUse,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11523,7 +11523,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.memory[BlockSize]</key>
+                        <key>bind.memory[BlockSize,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11535,7 +11535,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.memory[ContextSize]</key>
+                        <key>bind.memory[ContextSize,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11547,7 +11547,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.memory[Lost]</key>
+                        <key>bind.memory[Lost,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11579,7 +11579,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[A]</key>
+                        <key>bind.outcounter[A,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11591,7 +11591,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[AAAA]</key>
+                        <key>bind.outcounter[AAAA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11603,7 +11603,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[ANY]</key>
+                        <key>bind.outcounter[ANY,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11615,7 +11615,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[CNAME]</key>
+                        <key>bind.outcounter[CNAME,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11627,7 +11627,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[MX]</key>
+                        <key>bind.outcounter[MX,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11639,7 +11639,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[NAPTR]</key>
+                        <key>bind.outcounter[NAPTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11651,7 +11651,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[NS]</key>
+                        <key>bind.outcounter[NS,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11663,7 +11663,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[PTR]</key>
+                        <key>bind.outcounter[PTR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11675,7 +11675,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[SOA]</key>
+                        <key>bind.outcounter[SOA,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11687,7 +11687,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[SPF]</key>
+                        <key>bind.outcounter[SPF,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11699,7 +11699,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[SRV]</key>
+                        <key>bind.outcounter[SRV,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11711,7 +11711,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.outcounter[TXT]</key>
+                        <key>bind.outcounter[TXT,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11743,7 +11743,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[AuthQryRej]</key>
+                        <key>bind.counter[AuthQryRej,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11755,7 +11755,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryFailure]</key>
+                        <key>bind.counter[QryFailure,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11767,7 +11767,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QrySuccess]</key>
+                        <key>bind.counter[QrySuccess,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11779,7 +11779,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryAuthAns]</key>
+                        <key>bind.counter[QryAuthAns,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11791,7 +11791,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryFORMERR]</key>
+                        <key>bind.counter[QryFORMERR,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11803,7 +11803,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryNxrrset]</key>
+                        <key>bind.counter[QryNxrrset,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11815,7 +11815,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryNoauthAns]</key>
+                        <key>bind.counter[QryNoauthAns,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11827,7 +11827,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryNXDOMAIN]</key>
+                        <key>bind.counter[QryNXDOMAIN,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11839,7 +11839,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryReferral]</key>
+                        <key>bind.counter[QryReferral,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11851,7 +11851,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QrySERVFAIL]</key>
+                        <key>bind.counter[QrySERVFAIL,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11863,7 +11863,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryRecursion]</key>
+                        <key>bind.counter[QryRecursion,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11875,7 +11875,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryDropped]</key>
+                        <key>bind.counter[QryDropped,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11887,7 +11887,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.counter[QryDuplicate]</key>
+                        <key>bind.counter[QryDuplicate,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -11919,7 +11919,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[QryRTT10]</key>
+                        <key>bind.resolvercounter[QryRTT10,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11931,7 +11931,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[QryRTT100]</key>
+                        <key>bind.resolvercounter[QryRTT100,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11943,7 +11943,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[QryRTT500]</key>
+                        <key>bind.resolvercounter[QryRTT500,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11955,7 +11955,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[QryRTT800]</key>
+                        <key>bind.resolvercounter[QryRTT800,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11967,7 +11967,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[QryRTT1600]</key>
+                        <key>bind.resolvercounter[QryRTT1600,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -11979,7 +11979,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.resolvercounter[QryRTT1600+]</key>
+                        <key>bind.resolvercounter[QryRTT1600+,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -12011,7 +12011,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4Conn]</key>
+                        <key>bind.socketcounter[TCP4Conn,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12023,7 +12023,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4RecvErr]</key>
+                        <key>bind.socketcounter[TCP4RecvErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12035,7 +12035,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4SendErr]</key>
+                        <key>bind.socketcounter[TCP4SendErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12047,7 +12047,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4AcceptFail]</key>
+                        <key>bind.socketcounter[TCP4AcceptFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12059,7 +12059,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4BindFail]</key>
+                        <key>bind.socketcounter[TCP4BindFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12071,7 +12071,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4ConnFail]</key>
+                        <key>bind.socketcounter[TCP4ConnFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12083,7 +12083,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4OpenFail]</key>
+                        <key>bind.socketcounter[TCP4OpenFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12095,7 +12095,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4Accept]</key>
+                        <key>bind.socketcounter[TCP4Accept,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12107,7 +12107,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4Close]</key>
+                        <key>bind.socketcounter[TCP4Close,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12119,7 +12119,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP4Open]</key>
+                        <key>bind.socketcounter[TCP4Open,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -12151,7 +12151,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6Conn]</key>
+                        <key>bind.socketcounter[TCP6Conn,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12163,7 +12163,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6RecvErr]</key>
+                        <key>bind.socketcounter[TCP6RecvErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12175,7 +12175,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6SendErr]</key>
+                        <key>bind.socketcounter[TCP6SendErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12187,7 +12187,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6AcceptFail]</key>
+                        <key>bind.socketcounter[TCP6AcceptFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12199,7 +12199,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6BindFail]</key>
+                        <key>bind.socketcounter[TCP6BindFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12211,7 +12211,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6ConnFail]</key>
+                        <key>bind.socketcounter[TCP6ConnFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12223,7 +12223,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6OpenFail]</key>
+                        <key>bind.socketcounter[TCP6OpenFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12235,7 +12235,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6Accept]</key>
+                        <key>bind.socketcounter[TCP6Accept,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12247,7 +12247,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6Close]</key>
+                        <key>bind.socketcounter[TCP6Close,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12259,7 +12259,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[TCP6Open]</key>
+                        <key>bind.socketcounter[TCP6Open,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -12291,7 +12291,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4Conn]</key>
+                        <key>bind.socketcounter[UDP4Conn,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12303,7 +12303,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4RecvErr]</key>
+                        <key>bind.socketcounter[UDP4RecvErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12315,7 +12315,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4SendErr]</key>
+                        <key>bind.socketcounter[UDP4SendErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12327,7 +12327,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4BindFail]</key>
+                        <key>bind.socketcounter[UDP4BindFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12339,7 +12339,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4ConnFail]</key>
+                        <key>bind.socketcounter[UDP4ConnFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12351,7 +12351,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4OpenFail]</key>
+                        <key>bind.socketcounter[UDP4OpenFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12363,7 +12363,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4Close]</key>
+                        <key>bind.socketcounter[UDP4Close,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12375,7 +12375,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP4Open]</key>
+                        <key>bind.socketcounter[UDP4Open,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -12407,7 +12407,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6Conn]</key>
+                        <key>bind.socketcounter[UDP6Conn,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12419,7 +12419,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6RecvErr]</key>
+                        <key>bind.socketcounter[UDP6RecvErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12431,7 +12431,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6SendErr]</key>
+                        <key>bind.socketcounter[UDP6SendErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12443,7 +12443,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6BindFail]</key>
+                        <key>bind.socketcounter[UDP6BindFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12455,7 +12455,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6ConnFail]</key>
+                        <key>bind.socketcounter[UDP6ConnFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12467,7 +12467,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6OpenFail]</key>
+                        <key>bind.socketcounter[UDP6OpenFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12479,7 +12479,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6Close]</key>
+                        <key>bind.socketcounter[UDP6Close,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12491,7 +12491,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UDP6Open]</key>
+                        <key>bind.socketcounter[UDP6Open,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -12523,7 +12523,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixConn]</key>
+                        <key>bind.socketcounter[UnixConn,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12535,7 +12535,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixRecvErr]</key>
+                        <key>bind.socketcounter[UnixRecvErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12547,7 +12547,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixSendErr]</key>
+                        <key>bind.socketcounter[UnixSendErr,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12559,7 +12559,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixAcceptFail]</key>
+                        <key>bind.socketcounter[UnixAcceptFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12571,7 +12571,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixBindFail]</key>
+                        <key>bind.socketcounter[UnixBindFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12583,7 +12583,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixConnFail]</key>
+                        <key>bind.socketcounter[UnixConnFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12595,7 +12595,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixOpenFail]</key>
+                        <key>bind.socketcounter[UnixOpenFail,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12607,7 +12607,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixAccept]</key>
+                        <key>bind.socketcounter[UnixAccept,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12619,7 +12619,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixClose]</key>
+                        <key>bind.socketcounter[UnixClose,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -12631,7 +12631,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App DNS-bind Service</host>
-                        <key>bind.socketcounter[UnixOpen]</key>
+                        <key>bind.socketcounter[UnixOpen,{$DNS.SERVER}]</key>
                     </item>
                 </graph_item>
             </graph_items>
