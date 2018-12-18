@@ -26,6 +26,7 @@ Debian/Ubuntu)
 contents of
 userparameter_bind.conf)
 * Import the xml template into Zabbix (zbx_bind_statistics_template_v3.xml for Zabbix 3.X.X)
+* For the host configuration you have to define macro {$DNS.SERVER} where you set the DNS server IP address. In case you do local monitoring you need to specify {$DNS.SERVER} = 127.0.0.1
 
 ## Note:
 

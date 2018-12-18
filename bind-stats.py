@@ -10,21 +10,26 @@ import time
 import re
 
 
-JSONFILE = '/tmp/bindstats.json'
-CACHELIFE = 60
-
 parser = argparse.ArgumentParser()
 parser.add_argument("action", help="discoverzones | counter | zonecounter | zonemaintenancecounter | resolvercounter "
                                    "| socketcounter | incounter | outcounter")
 parser.add_argument("-z", help="zone")
 parser.add_argument("-c", help="counter name")
 parser.add_argument("-p", help="bind stats port")
+parser.add_argument("-s", help="target server ip")
 args = parser.parse_args()
 
 # Configurable port
-port = 8653
+port = 8053
 if args.p:
     port = args.p
+# Configurable server
+server = '127.0.0.1'
+if args.s:
+    server = args.s
+
+JSONFILE = '/tmp/bindstats-'+str(server)+'.json'
+CACHELIFE = 60
 
 # Read from the cache if it exists and is less than a minute old, so we don't hit Bind directly too often.
 if os.path.exists(JSONFILE) and time.time() - os.path.getmtime(JSONFILE) <= CACHELIFE:
@@ -33,7 +38,7 @@ if os.path.exists(JSONFILE) and time.time() - os.path.getmtime(JSONFILE) <= CACH
 
 else:
     import http.client
-    conn = http.client.HTTPConnection('localhost:{0}'.format(port))
+    conn = http.client.HTTPConnection(server,format(port))
     conn.request('GET', '/')
     resp = conn.getresponse()
     if not resp.status == 200:
@@ -105,6 +110,9 @@ else:
             if child.attrib['name'] == 'localhost_resolver':
                 for stat in child.iterfind('./rrset'):
                     j['cache'][stat.findtext('./name')] = stat.findtext('./counter')
+                    # for sets stating with !, we replace that with an _ (! is not allowed in zabbix)
+                    if re.match('^!', stat.findtext('./name')):
+                        j['cache'][stat.findtext('./name').replace('!', '_')] = stat.findtext('./counter')
 
     # this is for newer version 3
     if version == 3:
